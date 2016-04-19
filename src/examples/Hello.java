@@ -31,7 +31,7 @@ public final class Hello extends HttpServlet {
         response.setContentType("text/html");
         PrintWriter writer = response.getWriter();        
         writer.println("<html>");
-        writer.println("<head>");
+        writer.println("<head>"); 
         writer.println("<title>Sample Application for Servlet Page</title>");
         writer.println("</head>");
         writer.println("<body bgcolor=white>");
