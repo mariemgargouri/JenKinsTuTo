@@ -35,7 +35,6 @@ public final class Hello extends HttpServlet {
         writer.println("<title>Sample Application for Servlet Page</title>");
         writer.println("</head>");
         writer.println("<body bgcolor=white>");
-
         writer.println("<table border=\"0\" cellpadding=\"10\">");
         writer.println("<tr>");
         writer.println("<td>");
